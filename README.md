@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Live server link is below
+
+[Live Server](https://tornikesamkharadzeredberrycv.netlify.app/#/personal)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
