@@ -150,7 +150,6 @@ const PersonalProvider = ({ children }) => {
       new Date() > new Date(experience.due_date) &&
       new Date(experience.start_date) < new Date(experience.due_date);
     const descriptionRegex = /[ა-ჰa-zA-Z\w\d\s\S]{1,1000}/;
-
     return (
       positionRegex.test(experience.position) &&
       employerRegex.test(experience.employer) &&
@@ -158,7 +157,7 @@ const PersonalProvider = ({ children }) => {
       descriptionRegex.test(experience.description)
     );
   };
-
+  
   const isValid = (experiences) => {
     /* ფუნცია იღებს მასივს და სათითაოდ აწვდის ობიექტებად validateExperience
      ფუნქციას და თუ რომელიმე ობიექტიდან როდესაც validateExperience-ი შეამოწმებს 
