@@ -102,6 +102,7 @@ const Cv = () => {
                 </>
               )}
             </section>
+            
           );
         })}
         {/* end:Education page section */}
