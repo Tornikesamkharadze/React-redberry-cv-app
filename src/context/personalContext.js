@@ -64,19 +64,6 @@ const PersonalProvider = ({ children }) => {
   //end:useffects for localStorages
 
   const sendData = async () => {
- /*    const formData = new FormData();
-    formData.append("name", formValues.name);
-    formData.append("surname", formValues.surname);
-    formData.append("email", formValues.email);
-    formData.append("phone_number", formValues.phone_number);
-    formData.append("experiences", JSON.stringify(formValues.experiences));
-    formData.append("educations", JSON.stringify(formValues.educations));
-    formData.append("image", formValues.image);
-    formData.append("about_me", formValues.about_me);
-
-    const formDataBlob = new Blob([JSON.stringify(formValues)], {
-      type: "application/json",
-    }); */
 
     try {
       const { data } = await axios.post(postUrl, formValues);
